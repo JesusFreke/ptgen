@@ -7,11 +7,15 @@ The first is a colored SVG output where each rhombus is specified as a
 separate path, and with different styles applied to thick and thin
 rhombii. This is intended to be useful to generate tilings for display.
 
+<img src="https://jesusfreke.github.io/ptgen/ptgen-svg.png" alt="drawing" width="400"/>
+
 The second is a more minimal SVG output that only includes the edges
 around each rhombus. The edges are de-duplicated, so that there is only
 a single line segment for an edge shared by 2 rhombii. This is intended
 to be useful for milling/engraving applications, to avoid re-cutting
 the shared edges between rhombii.
+
+<img src="https://jesusfreke.github.io/ptgen/ptgen-svgline.png" alt="drawing" width="400"/>
 
 This program has the ability to split up a larger tiling
 into multiple smaller tilings in a grid, that, when rejoined, have no
