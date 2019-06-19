@@ -22,7 +22,7 @@ into multiple smaller tilings in a grid, that, when rejoined, have no
 overlaps or gaps.
 
 ##### Getting started
-1. Download the ptgen.jar
+1. Download the [ptgen.jar](https://github.com/JesusFreke/ptgen/releases)
 2. `java -jar ptgen.jar > tiling.svg` to generate a basic 10mm x 10mm tiling
 3. `java -jar ptgen-jar --help` to see what other options are available.
 
